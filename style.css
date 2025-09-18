@@ -1,7 +1,68 @@
-body{
+body {
     background-color: lightpink;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0 auto;
+    text-align: center;
 }
-h1{
-    color:gray
+
+h1 {
+    color: gray;
+    text-align: center;
+}
+
+h4 {
+    text-align: left;
+    margin-bottom: 2%;
+}
+
+ul {
+    text-align: left;
+    list-style-position: inside;
+    padding-left: 0;
+    color: black;
+    font-size: 90%;
+    list-style: none;
+}
+
+ul li::before {
+    content: '🐱';
+    display: inline-block;
+    padding: 0 3% 0 0;
+}
+
+p {
+    color: black;
+    font-size: 100%;
+    text-align: left;
+    margin: 0 0 2% 0;
+}
+
+#destacada {
+    color: deeppink;
+    text-align: left;
+}
+
+img {
+    display: block;
+    margin: 0 auto 4% auto;
+    width: 25%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.contenedor-principal {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.lado-izquierdo {
+    width: 45%;
+    float: left;
+    text-align: left;
+}
+
+.lado-derecho {
+    width: 45%;
+    float: right;
+    text-align: left;
 }
