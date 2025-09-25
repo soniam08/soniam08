@@ -37,8 +37,8 @@ p {
     margin: 0 0 2% 0;
 }
 
-#destacada {
-    color: deeppink;
+.destacada {
+    color: rgb(65, 191, 153);
     text-align: left;
 }
 
